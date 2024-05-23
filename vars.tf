@@ -1,12 +1,12 @@
 variable "aws_region" {
   type    = string
-  default = "us-east-2"
+  default = "ap-south-1"
 }
 
 variable "cluster_name" {
   type        = string
   description = "The name of the ROSA cluster to create"
-  default     = "nddemo-restricted"
+  default     = "db-clstr-01"
 }
 
 # variable "network_type" {
