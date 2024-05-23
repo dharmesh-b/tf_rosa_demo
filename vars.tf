@@ -26,7 +26,7 @@ variable "cluster_name" {
 variable "rosa_version" {
   type        = string
   description = "The version of ROSA to be deployed"
-  default     = "4.13.2"
+  default     = "4.15.13"
 }
 
 variable "replicas" {
